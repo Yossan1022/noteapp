@@ -1,0 +1,61 @@
+.app-sidbar{
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+
+}
+
+.app-sidbar-header{
+  display: flex;
+  justify-content: space-between;
+  padding:25px;
+
+}
+
+button{
+  background: none;
+  border: none;
+  color: #08c;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.app-sidbar-header h1{
+  margin: 0;
+}
+
+.app-sidbar-notes{
+  height: calc(100vh - 78px);
+overflow-y:scroll;
+
+}
+
+.app-sidbar-note{
+  padding: 25px;
+  cursor: pointer;
+
+}
+
+.sidbar-note-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-sidbar-note p{
+margin: 10px 0;
+}
+
+.app-sidbar-note small{
+  color:#999;
+}
+
+.app-sidbar-note:hover{
+  background-color: #f1f0f0;
+  
+}
+.app-sidbar-note.active{
+  background-color: #f1f0f0;
+
+}
